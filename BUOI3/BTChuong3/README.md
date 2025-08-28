@@ -1,33 +1,17 @@
-Tạo cơ sở dữ liệu
+<h1 align="center">LẬP TRÌNH WEB</h1>
 
-```sql
-CREATE DATABASE USERSDB;
-GO
+### Tech Stack
 
-USE USERSDB;
-GO
+<p align="center">
+  <img alt="Java" src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white" />
+  <img alt="Spring" src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white" />
+  <img alt="SQL Server" src="https://img.shields.io/badge/SQL%20Server-CC2927?style=for-the-badge&logo=microsoft%20sql%20server&logoColor=white" />
+  <img alt="Eclipse" src="https://img.shields.io/badge/Eclipse-2C2255?style=for-the-badge&logo=eclipse&logoColor=white" />
+</p>
 
-CREATE TABLE Users (
-    id INT identity PRIMARY KEY,
-    email VARCHAR(100) NOT NULL UNIQUE,
-    userName VARCHAR(50) NOT NULL UNIQUE,
-    fullName VARCHAR(100),
-    password VARCHAR(100) NOT NULL,
-    avatar VARCHAR(255),
-    roleid INT default 3,
-    phone VARCHAR(15),
-	createdDate DATETIME DEFAULT GETDATE()
-);
+### Bài Tập
+1. [Login với Cookie và Session](https://github.com/ltaamlee/Web-Programming/tree/c86721d4be010374913f9002416a4be78cfa775a/BUOI2/BTChuong2)
 
-INSERT INTO Users (email, userName, fullName, password, avatar, roleid, phone)
-VALUES
-('john@example.com', 'john123', 'John Doe', '123456', 'avatar1.jpg', 1, '0123456789'),
-('alice@example.com', 'alice99', 'Alice Smith', 'alicepwd', 'avatar2.jpg', 2, '0987654321'),
-('bob@example.com', 'bob77', 'Bob Johnson', 'bobpass', 'avatar3.jpg', 2, '0911223344'),
-('mary@example.com', 'mary88', 'Mary Brown', 'marypwd', 'avatar4.jpg', 3, '0909876543'),
-('tom@example.com', 'tom007', 'Tom White', 'tompass', 'avatar5.jpg', 3, '0933445566'),
-('linda@example.com', 'linda55', 'Linda Green', 'lindapwd', 'avatar6.jpg', 3, '0944556677'),
-('kevin@example.com', 'kevin01', 'Kevin Black', 'kevinpwd', 'avatar7.jpg', 3, '0955667788'),
-('susan@example.com', 'susan22', 'Susan Gray', 'susanpwd', 'avatar8.jpg', 3, '0966778899'),
-('david@example.com', 'david33', 'David Blue', 'davidpwd', 'avatar9.jpg', 3, '0977889900'),
-('emma@example.com', 'emma44', 'Emma Red', 'emmapwd', 'avatar10.jpg', 3, '0988990011');
+2. [Kết nối CSDL và Chức năng Register - Login](https://github.com/ltaamlee/Web-Programming/tree/c86721d4be010374913f9002416a4be78cfa775a/BUOI3/BTChuong3)
+
+
