@@ -1,9 +1,11 @@
-Tạo cơ sở dữ liệu lưu thông tin account
-create database USERSDB
-go
+Tạo cơ sở dữ liệu
 
-use USERSDB
-go
+```sql
+CREATE DATABASE USERSDB;
+GO
+
+USE USERSDB;
+GO
 
 CREATE TABLE Users (
     id INT identity PRIMARY KEY,
@@ -14,7 +16,8 @@ CREATE TABLE Users (
     avatar VARCHAR(255),
     roleid INT default 3,
     phone VARCHAR(15),
-	createdDate DATETIME DEFAULT GETDATE());
+	createdDate DATETIME DEFAULT GETDATE()
+);
 
 INSERT INTO Users (email, userName, fullName, password, avatar, roleid, phone)
 VALUES
