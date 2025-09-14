@@ -15,3 +15,7 @@
 2. [Kết nối CSDL và Chức năng Register - Login](https://github.com/ltaamlee/Web-Programming/tree/c86721d4be010374913f9002416a4be78cfa775a/BUOI3/BTChuong3)
 
 3. [JDBC - CRUD](https://github.com/ltaamlee/Web-Programming/tree/5920ad8a31866e6e25796836378970a91d08914b/BUOI4/BTChuong3)
+
+4. [JPA](https://github.com/ltaamlee/Web-Programming/tree/ba6ea4c46841497f956fa95505b815ec27e1f83b/BT4JPA)
+
+5. [Site Mesh 3](https://github.com/ltaamlee/Web-Programming/tree/ba6ea4c46841497f956fa95505b815ec27e1f83b/SiteMesh)
