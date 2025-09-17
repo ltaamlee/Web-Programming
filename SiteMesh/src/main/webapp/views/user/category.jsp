@@ -80,7 +80,7 @@
         </div>
         <div class="card-body">
             <div class="d-flex justify-content-end mb-3">
-                <a href="<c:url value='/admin/category/add' />" class="btn btn-success">Add</a>
+                <a href="<c:url value='/user/category/add' />" class="btn btn-success">Add</a>
             </div>
             <!-- Table danh mục -->
             <table class="table table-striped table-hover align-middle">
@@ -102,8 +102,8 @@
                             <td><img src="${imgUrl}" class="img-thumbnail" style="max-height: 150px; max-width: 200px;" /></td>
                             <td>${cate.cateName}</td>
                             <td>
-                                <a href="<c:url value='/admin/category/edit'><c:param name='id' value='${cate.cateId}'/></c:url>" class="btn btn-sm btn-warning me-1">Edit</a>
-                                <a href="<c:url value='/admin/category/delete'><c:param name='id' value='${cate.cateId}'/></c:url>" class="btn btn-sm btn-danger" onclick="return confirm('Bạn có chắc muốn xóa?');">Delete</a>
+                                <a href="<c:url value='/user/category/edit'><c:param name='id' value='${cate.cateId}'/></c:url>" class="btn btn-sm btn-warning me-1">Edit</a>
+                                <a href="<c:url value='/user/category/delete'><c:param name='id' value='${cate.cateId}'/></c:url>" class="btn btn-sm btn-danger" onclick="return confirm('Bạn có chắc muốn xóa?');">Delete</a>
                             </td>
                         </tr>
                     </c:forEach>

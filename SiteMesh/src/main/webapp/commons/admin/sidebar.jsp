@@ -23,7 +23,7 @@
 
 	<ul class="nav nav-pills flex-column mb-auto">
 		<li class="nav-item mb-2"><a
-			href="<c:url value='/admin/manageUsers' />" class="nav-link"> <i
+			href="<c:url value='#' />" class="nav-link"> <i
 				class="bi bi-people-fill"></i> Accounts
 		</a></li>
 		<li class="nav-item mb-2"><a
@@ -31,7 +31,7 @@
 				class="bi bi-tags-fill"></i> Categories
 		</a></li>
 		<li class="nav-item mb-2"><a
-			href="<c:url value='/admin/manageProducts' />" class="nav-link">
+			href="<c:url value='#' />" class="nav-link">
 				<i class="bi bi-box-seam"></i> Products
 		</a></li>
 		<li class="nav-item mb-2"><a

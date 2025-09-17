@@ -23,8 +23,8 @@
 
 	<ul class="nav nav-pills flex-column mb-auto">
 		<li class="nav-item mb-2"><a
-			href="<c:url value='/user/manageProducts' />" class="nav-link">
-				<i class="bi bi-box-seam"></i> Products
+			href="<c:url value='/user/category' />" class="nav-link"> <i
+				class="bi bi-tags-fill"></i> Categories
 		</a></li>
 		<li class="nav-item mb-2"><a
 			href="<c:url value='/user/profile' />" class="nav-link"> <i
